@@ -22,10 +22,7 @@ The application includes a HelloController that handles requests for the root pa
 ```bash
   mvn clean install
 ```
-4. Run the application:
-```bash
-  mvn spring-boot:run
-```
+4. Deploy the WAR file to a Servlet container (e.g., Apache Tomcat).
 5. Access the application at http://localhost:8080
 ### Usage
 - The application includes a single HelloController that handles requests for the root path (/) and /hello.
